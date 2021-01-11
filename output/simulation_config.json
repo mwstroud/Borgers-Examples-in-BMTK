@@ -1,0 +1,75 @@
+{
+  "inputs": {
+    "extnet_spikes": {
+      "input_type": "spikes", 
+      "node_set": "extnet", 
+      "module": "sonata", 
+      "input_file": "C:\\Users\\strou\\Documents\\MIZNEURO\\rhythms-master\\BMTK Examples\\23-WBEntrainment\\input\\PoissonSpike.h5"
+    }
+  }, 
+  "node_sets_file": "C:\\Users\\strou\\Documents\\MIZNEURO\\rhythms-master\\BMTK Examples\\23-WBEntrainment\\node_sets.json", 
+  "run": {
+    "dL": 20.0, 
+    "nsteps_block": 5000, 
+    "spike_threshold": -15.0, 
+    "tstart": 0.0, 
+    "tstop": 800.0, 
+    "dt": 0.1
+  }, 
+  "network": "C:\\Users\\strou\\Documents\\MIZNEURO\\rhythms-master\\BMTK Examples\\23-WBEntrainment\\circuit_config.json", 
+  "config_path": "C:\\Users\\strou\\Documents\\MIZNEURO\\rhythms-master\\BMTK Examples\\23-WBEntrainment\\simulation_config.json", 
+  "config_dir": "C:\\Users\\strou\\Documents\\MIZNEURO\\rhythms-master\\BMTK Examples\\23-WBEntrainment", 
+  "reports": {
+    "v_report": {
+      "cells": "all", 
+      "sections": "soma", 
+      "module": "membrane_report", 
+      "variable_name": "v"
+    }
+  }, 
+  "node_sets": {
+    "biophysical_nodes": {
+      "model_type": "biophysical"
+    }, 
+    "point_nodes": {
+      "model_type": "point_process"
+    }
+  }, 
+  "components": {
+    "morphologies_dir": "C:\\Users\\strou\\Documents\\MIZNEURO\\rhythms-master\\BMTK Examples\\23-WBEntrainment\\components\\morphologies", 
+    "point_neuron_models_dir": "C:\\Users\\strou\\Documents\\MIZNEURO\\rhythms-master\\BMTK Examples\\23-WBEntrainment\\components\\point_neuron_models", 
+    "templates_dir": "C:\\Users\\strou\\Documents\\MIZNEURO\\rhythms-master\\BMTK Examples\\23-WBEntrainment\\components\\templates", 
+    "biophysical_neuron_models_dir": "C:\\Users\\strou\\Documents\\MIZNEURO\\rhythms-master\\BMTK Examples\\23-WBEntrainment\\components\\biophysical_neuron_models", 
+    "mechanisms_dir": "C:\\Users\\strou\\Documents\\MIZNEURO\\rhythms-master\\BMTK Examples\\23-WBEntrainment\\components\\mechanisms", 
+    "synaptic_models_dir": "C:\\Users\\strou\\Documents\\MIZNEURO\\rhythms-master\\BMTK Examples\\23-WBEntrainment\\components\\synaptic_models"
+  }, 
+  "target_simulator": "NEURON", 
+  "output": {
+    "spikes_file": "C:\\Users\\strou\\Documents\\MIZNEURO\\rhythms-master\\BMTK Examples\\23-WBEntrainment\\output\\spikes.h5", 
+    "log_file": "C:\\Users\\strou\\Documents\\MIZNEURO\\rhythms-master\\BMTK Examples\\23-WBEntrainment\\output\\log.txt", 
+    "output_dir": "C:\\Users\\strou\\Documents\\MIZNEURO\\rhythms-master\\BMTK Examples\\23-WBEntrainment\\output"
+  }, 
+  "conditions": {
+    "celsius": 34.0, 
+    "v_init": -80.0
+  }, 
+  "networks": {
+    "nodes": [
+      {
+        "node_types_file": "C:\\Users\\strou\\Documents\\MIZNEURO\\rhythms-master\\BMTK Examples\\23-WBEntrainment\\network\\extnet_node_types.csv", 
+        "nodes_file": "C:\\Users\\strou\\Documents\\MIZNEURO\\rhythms-master\\BMTK Examples\\23-WBEntrainment\\network\\extnet_nodes.h5"
+      }, 
+      {
+        "node_types_file": "C:\\Users\\strou\\Documents\\MIZNEURO\\rhythms-master\\BMTK Examples\\23-WBEntrainment\\network\\network_node_types.csv", 
+        "nodes_file": "C:\\Users\\strou\\Documents\\MIZNEURO\\rhythms-master\\BMTK Examples\\23-WBEntrainment\\network\\network_nodes.h5"
+      }
+    ], 
+    "edges": [
+      {
+        "edges_file": "C:\\Users\\strou\\Documents\\MIZNEURO\\rhythms-master\\BMTK Examples\\23-WBEntrainment\\network\\extnet_network_edges.h5", 
+        "edge_types_file": "C:\\Users\\strou\\Documents\\MIZNEURO\\rhythms-master\\BMTK Examples\\23-WBEntrainment\\network\\extnet_network_edge_types.csv"
+      }
+    ], 
+    "gap_juncs": []
+  }
+}

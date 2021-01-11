@@ -1,0 +1,2 @@
+edge_type_id target_query source_query syn_weight dynamics_params distance_range delay target_sections weight_function model_template
+100 * pop_name=='Inp' 0.195 ExcToInh.json "[0.0, 150.0]" 0 "['basal', 'apical']" NULL exp2syn
