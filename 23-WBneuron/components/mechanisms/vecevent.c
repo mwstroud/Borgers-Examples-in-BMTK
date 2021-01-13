@@ -215,7 +215,7 @@ extern void _cvode_abstol( Symbol**, double*, int);
  pnt_receive[_mechtype] = _net_receive;
  pnt_receive_size[_mechtype] = 1;
  	hoc_register_var(hoc_scdoub, hoc_vdoub, hoc_intfunc);
- 	ivoc_help("help ?1 VecStim C:/Users/strou/Documents/MIZNEURO/rhythms-master/eio_theta_network/components/mechanisms/vecevent.mod\n");
+ 	ivoc_help("help ?1 VecStim C:/Users/strou/Documents/Git/Borgers-Examples-in-BMTK/23-WBneuron/components/mechanisms/vecevent.mod\n");
  hoc_register_limits(_mechtype, _hoc_parm_limits);
  hoc_register_units(_mechtype, _hoc_parm_units);
  }

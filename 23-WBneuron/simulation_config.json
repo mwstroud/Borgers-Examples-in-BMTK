@@ -17,11 +17,11 @@
     "v_init": -80.0
   }, 
   "inputs": {
-    "e_spikes": {
+    "extnet_spikes": {
       "input_type": "spikes", 
-      "node_set": "e", 
-      "module": "", 
-      "input_file": "$BASE_DIR\\x"
+      "node_set": "extnet", 
+      "module": "sonata", 
+      "input_file": "$BASE_DIR\\input\\PoissonSpike.h5"
     }
   }, 
   "output": {

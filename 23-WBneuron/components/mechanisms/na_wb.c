@@ -238,7 +238,7 @@ extern void _cvode_abstol( Symbol**, double*, int);
  	hoc_register_cvode(_mechtype, _ode_count, _ode_map, _ode_spec, _ode_matsol);
  	hoc_register_tolerance(_mechtype, _hoc_state_tol, &_atollist);
  	hoc_register_var(hoc_scdoub, hoc_vdoub, hoc_intfunc);
- 	ivoc_help("help ?1 na_wb C:/Users/strou/Documents/MIZNEURO/rhythms-master/eio_theta_network/components/mechanisms/na_wb.mod\n");
+ 	ivoc_help("help ?1 na_wb C:/Users/strou/Documents/Git/Borgers-Examples-in-BMTK/23-WBneuron/components/mechanisms/na_wb.mod\n");
  hoc_register_limits(_mechtype, _hoc_parm_limits);
  hoc_register_units(_mechtype, _hoc_parm_units);
  }

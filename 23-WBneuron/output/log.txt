@@ -1,4 +1,4 @@
-2021-01-09 17:32:53,569 [INFO] Created log file
-2021-01-09 17:32:53,684 [INFO] Building cells.
-2021-01-09 17:32:53,704 [INFO] Building recurrent connections
-2021-01-09 17:32:53,736 [INFO] Building virtual cell stimulations for extnet_spikes
+2021-01-12 19:24:15,115 [INFO] Created log file
+2021-01-12 19:24:15,221 [INFO] Building cells.
+2021-01-12 19:24:15,253 [INFO] Building recurrent connections
+2021-01-12 19:24:15,283 [INFO] Building virtual cell stimulations for extnet_spikes
