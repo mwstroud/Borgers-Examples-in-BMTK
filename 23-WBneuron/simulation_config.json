@@ -21,7 +21,7 @@
       "input_type": "spikes", 
       "node_set": "extnet", 
       "module": "sonata", 
-      "input_file": "$BASE_DIR\\input\\PoissonSpike.h5"
+      "input_file": "$BASE_DIR\\input\\ConstantSpike.h5"
     }
   }, 
   "output": {

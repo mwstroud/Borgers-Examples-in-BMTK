@@ -4,7 +4,7 @@
       "input_type": "spikes", 
       "node_set": "extnet", 
       "module": "sonata", 
-      "input_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\23-WBneuron\\input\\PoissonSpike.h5"
+      "input_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\23-WBneuron\\input\\ConstantSpike.h5"
     }
   }, 
   "node_sets_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\23-WBneuron\\node_sets.json", 
