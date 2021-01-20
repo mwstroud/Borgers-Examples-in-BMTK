@@ -1,2 +1,2 @@
 edge_type_id target_query source_query delay target_sections dynamics_params model_template
-100 pop_name=='Exc' pop_name=='Exc' 0 ['soma'] PING_ExcToExc.json Exp2Syn
+100 pop_name=='Exc' pop_name=='Exc' 0 ['soma'] PING_ExcToExc.json exp2syn

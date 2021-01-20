@@ -9,7 +9,7 @@
     "nsteps_block": 5000, 
     "spike_threshold": -15.0, 
     "tstart": 0.0, 
-    "tstop": 800.0, 
+    "tstop": 200.0, 
     "dt": 0.1
   }, 
   "conditions": {
@@ -17,9 +17,9 @@
     "v_init": -80.0
   }, 
   "inputs": {
-    "Exc_spikes": {
+    "network_spikes": {
       "input_type": "spikes", 
-      "node_set": "Exc", 
+      "node_set": "network", 
       "module": "sonata", 
       "input_file": "$BASE_DIR\\input\\Asynchronous.h5"
     }

@@ -15,6 +15,10 @@
   "networks": {
     "nodes": [
       {
+        "node_types_file": "$NETWORK_DIR\\extnet_node_types.csv", 
+        "nodes_file": "$NETWORK_DIR\\extnet_nodes.h5"
+      }, 
+      {
         "node_types_file": "$NETWORK_DIR\\network_node_types.csv", 
         "nodes_file": "$NETWORK_DIR\\network_nodes.h5"
       }
@@ -23,6 +27,10 @@
       {
         "edges_file": "$NETWORK_DIR\\network_network_edges.h5", 
         "edge_types_file": "$NETWORK_DIR\\network_network_edge_types.csv"
+      }, 
+      {
+        "edges_file": "$NETWORK_DIR\\extnet_network_edges.h5", 
+        "edge_types_file": "$NETWORK_DIR\\extnet_network_edge_types.csv"
       }
     ], 
     "gap_juncs": []

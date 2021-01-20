@@ -1,8 +1,8 @@
 {
   "inputs": {
-    "Exc_spikes": {
+    "network_spikes": {
       "input_type": "spikes", 
-      "node_set": "Exc", 
+      "node_set": "network", 
       "module": "sonata", 
       "input_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\24-RTM_Heterogeneous\\input\\Asynchronous.h5"
     }
@@ -13,7 +13,7 @@
     "nsteps_block": 5000, 
     "spike_threshold": -15.0, 
     "tstart": 0.0, 
-    "tstop": 800.0, 
+    "tstop": 200.0, 
     "dt": 0.1
   }, 
   "network": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\24-RTM_Heterogeneous\\circuit_config.json", 
@@ -56,6 +56,10 @@
   "networks": {
     "nodes": [
       {
+        "node_types_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\24-RTM_Heterogeneous\\network\\extnet_node_types.csv", 
+        "nodes_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\24-RTM_Heterogeneous\\network\\extnet_nodes.h5"
+      }, 
+      {
         "node_types_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\24-RTM_Heterogeneous\\network\\network_node_types.csv", 
         "nodes_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\24-RTM_Heterogeneous\\network\\network_nodes.h5"
       }
@@ -64,6 +68,10 @@
       {
         "edges_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\24-RTM_Heterogeneous\\network\\network_network_edges.h5", 
         "edge_types_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\24-RTM_Heterogeneous\\network\\network_network_edge_types.csv"
+      }, 
+      {
+        "edges_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\24-RTM_Heterogeneous\\network\\extnet_network_edges.h5", 
+        "edge_types_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\24-RTM_Heterogeneous\\network\\extnet_network_edge_types.csv"
       }
     ], 
     "gap_juncs": []
