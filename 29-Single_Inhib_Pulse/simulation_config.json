@@ -9,22 +9,31 @@
     "nsteps_block": 5000, 
     "spike_threshold": -15.0, 
     "tstart": 0.0, 
-    "tstop": 1050.0, 
-    "dt": 0.1
+    "tstop": 30.0, 
+    "dt": 0.01
   }, 
   "conditions": {
     "celsius": 34.0, 
-    "v_init": -80.0
+    "v_init": -66.5
   }, 
   "inputs": {
-    "current_clamp": {
-      "gids": "all", 
+    "extnet_spikes": {
+      "input_type": "spikes", 
+      "node_set": "extnet", 
+      "module": "sonata", 
+      "input_file": "$BASE_DIR\\input\\Splay.h5"
+    }, 
+    "file_current_clamp": {
       "input_type": "current_clamp", 
       "node_set": "all", 
-      "module": "IClamp", 
-      "delay": 50.0, 
-      "duration": 1000.0, 
-      "amp": 0.3
+      "module": "FileIClamp", 
+      "input_file": "$BASE_DIR\\input\\amps.h5"
+    }, 
+    "inhib_spikes": {
+      "input_type": "spikes", 
+      "node_set": "inhib", 
+      "module": "sonata", 
+      "input_file": "$BASE_DIR\\input\\Inhib.h5"
     }
   }, 
   "output": {

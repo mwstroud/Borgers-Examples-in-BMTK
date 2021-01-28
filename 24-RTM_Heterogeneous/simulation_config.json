@@ -17,9 +17,9 @@
     "v_init": -80.0
   }, 
   "inputs": {
-    "network_spikes": {
+    "extnet_spikes": {
       "input_type": "spikes", 
-      "node_set": "network", 
+      "node_set": "extnet", 
       "module": "sonata", 
       "input_file": "$BASE_DIR\\input\\Asynchronous.h5"
     }

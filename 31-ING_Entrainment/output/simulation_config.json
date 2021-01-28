@@ -1,0 +1,80 @@
+{
+  "inputs": {
+    "extnet_spikes": {
+      "input_type": "spikes", 
+      "node_set": "extnet", 
+      "module": "sonata", 
+      "input_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\29-Single_Inhib_Pulse\\input\\Splay.h5"
+    }, 
+    "file_current_clamp": {
+      "input_type": "file_current_clamp", 
+      "node_set": "network", 
+      "module": "FileIClamp", 
+      "input_file": "input/amps.h5"
+    }
+  }, 
+  "node_sets_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\29-Single_Inhib_Pulse\\node_sets.json", 
+  "run": {
+    "dL": 20.0, 
+    "nsteps_block": 5000, 
+    "spike_threshold": -15.0, 
+    "tstart": 0.0, 
+    "tstop": 30.0, 
+    "dt": 0.1
+  }, 
+  "network": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\29-Single_Inhib_Pulse\\circuit_config.json", 
+  "config_path": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\29-Single_Inhib_Pulse\\simulation_config.json", 
+  "config_dir": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\29-Single_Inhib_Pulse", 
+  "reports": {
+    "v_report": {
+      "cells": "all", 
+      "sections": "soma", 
+      "module": "membrane_report", 
+      "variable_name": "v"
+    }
+  }, 
+  "node_sets": {
+    "biophysical_nodes": {
+      "model_type": "biophysical"
+    }, 
+    "point_nodes": {
+      "model_type": "point_process"
+    }
+  }, 
+  "components": {
+    "morphologies_dir": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\29-Single_Inhib_Pulse\\components\\morphologies", 
+    "point_neuron_models_dir": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\29-Single_Inhib_Pulse\\components\\point_neuron_models", 
+    "templates_dir": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\29-Single_Inhib_Pulse\\components\\templates", 
+    "biophysical_neuron_models_dir": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\29-Single_Inhib_Pulse\\components\\biophysical_neuron_models", 
+    "mechanisms_dir": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\29-Single_Inhib_Pulse\\components\\mechanisms", 
+    "synaptic_models_dir": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\29-Single_Inhib_Pulse\\components\\synaptic_models"
+  }, 
+  "target_simulator": "NEURON", 
+  "output": {
+    "spikes_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\29-Single_Inhib_Pulse\\output\\spikes.h5", 
+    "output_dir": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\29-Single_Inhib_Pulse\\output"
+  }, 
+  "conditions": {
+    "celsius": 34.0, 
+    "v_init": -66.5
+  }, 
+  "networks": {
+    "nodes": [
+      {
+        "node_types_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\29-Single_Inhib_Pulse\\network\\extnet_node_types.csv", 
+        "nodes_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\29-Single_Inhib_Pulse\\network\\extnet_nodes.h5"
+      }, 
+      {
+        "node_types_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\29-Single_Inhib_Pulse\\network\\network_node_types.csv", 
+        "nodes_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\29-Single_Inhib_Pulse\\network\\network_nodes.h5"
+      }
+    ], 
+    "edges": [
+      {
+        "edges_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\29-Single_Inhib_Pulse\\network\\extnet_network_edges.h5", 
+        "edge_types_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\29-Single_Inhib_Pulse\\network\\extnet_network_edge_types.csv"
+      }
+    ], 
+    "gap_juncs": []
+  }
+}

@@ -1,0 +1,2 @@
+edge_type_id target_query source_query syn_weight dynamics_params distance_range delay target_sections weight_function model_template
+100 * pop_name=='Inp_inh' 2.25 Strong_Short.json "[0.0, 1.0]" 0 ['soma'] NULL expsyn

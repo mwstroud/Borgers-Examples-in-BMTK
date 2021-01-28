@@ -1,8 +1,8 @@
 {
   "inputs": {
-    "network_spikes": {
+    "extnet_spikes": {
       "input_type": "spikes", 
-      "node_set": "network", 
+      "node_set": "extnet", 
       "module": "sonata", 
       "input_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\24-RTM_Heterogeneous\\input\\Asynchronous.h5"
     }
