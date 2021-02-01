@@ -3,6 +3,7 @@
 #define IMPORT extern __declspec(dllimport)
 IMPORT int nrnmpi_myid, nrn_nobanner_;
 
+extern void _gap_reg();
 extern void _k_rtm_reg();
 extern void _k_wb_reg();
 extern void _leak_reg();
@@ -15,6 +16,7 @@ void modl_reg(){
     if (!nrn_nobanner_) if (nrnmpi_myid < 1) {
 	fprintf(stderr, "Additional mechanisms from files\n");
 
+fprintf(stderr," gap.mod");
 fprintf(stderr," k_rtm.mod");
 fprintf(stderr," k_wb.mod");
 fprintf(stderr," leak.mod");
@@ -23,6 +25,7 @@ fprintf(stderr," na_wb.mod");
 fprintf(stderr," vecevent.mod");
 fprintf(stderr, "\n");
     }
+_gap_reg();
 _k_rtm_reg();
 _k_wb_reg();
 _leak_reg();

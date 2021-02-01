@@ -1,9 +1,10 @@
-2021-01-27 23:48:29,979 [INFO] Created log file
-2021-01-27 23:48:30,148 [INFO] Building cells.
-2021-01-27 23:48:30,207 [INFO] Building recurrent connections
-2021-01-27 23:48:31,335 [INFO] Building virtual cell stimulations for extnet_spikes
-2021-01-27 23:48:31,434 [INFO] Running simulation for 200.000 ms with the time step 0.100 ms
-2021-01-27 23:48:31,467 [INFO] Starting timestep: 0 at t_sim: 0.000 ms
-2021-01-27 23:48:31,497 [INFO] Block save every 2000 steps
-2021-01-27 23:48:32,717 [INFO]     step:2000 t_sim:200.00 ms
-2021-01-27 23:48:32,769 [INFO] Simulation completed in 1.335 seconds 
+2021-01-31 09:49:49,062 [INFO] Created log file
+2021-01-31 09:49:49,203 [INFO] Building cells.
+2021-01-31 09:49:49,240 [INFO] Building recurrent connections
+2021-01-31 09:49:49,319 [INFO] Building virtual cell stimulations for extnet_spikes
+2021-01-31 09:49:49,395 [INFO] Building virtual cell stimulations for drive_spikes
+2021-01-31 09:49:49,487 [INFO] Running simulation for 200.000 ms with the time step 0.100 ms
+2021-01-31 09:49:49,507 [INFO] Starting timestep: 0 at t_sim: 0.000 ms
+2021-01-31 09:49:49,538 [INFO] Block save every 2000 steps
+2021-01-31 09:49:50,555 [INFO]     step:2000 t_sim:200.00 ms
+2021-01-31 09:49:50,599 [INFO] Simulation completed in 1.112 seconds 

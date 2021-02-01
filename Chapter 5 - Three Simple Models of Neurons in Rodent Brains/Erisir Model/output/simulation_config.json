@@ -1,0 +1,66 @@
+{
+  "inputs": {
+    "file_current_clamp": {
+      "input_type": "current_clamp", 
+      "node_set": "all", 
+      "module": "FileIClamp", 
+      "input_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\Chapter 5 - Three Simple Models of Neurons in Rodent Brains\\Erisir Model\\input\\amps.h5"
+    }
+  }, 
+  "node_sets_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\Chapter 5 - Three Simple Models of Neurons in Rodent Brains\\Erisir Model\\node_sets.json", 
+  "run": {
+    "dL": 20.0, 
+    "nsteps_block": 5000, 
+    "spike_threshold": -15.0, 
+    "tstart": 0.0, 
+    "tstop": 100.0, 
+    "dt": 0.1
+  }, 
+  "network": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\Chapter 5 - Three Simple Models of Neurons in Rodent Brains\\Erisir Model\\circuit_config.json", 
+  "config_path": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\Chapter 5 - Three Simple Models of Neurons in Rodent Brains\\Erisir Model\\simulation_config.json", 
+  "config_dir": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\Chapter 5 - Three Simple Models of Neurons in Rodent Brains\\Erisir Model", 
+  "reports": {
+    "v_report": {
+      "cells": "all", 
+      "sections": "soma", 
+      "module": "membrane_report", 
+      "variable_name": "v"
+    }
+  }, 
+  "node_sets": {
+    "biophysical_nodes": {
+      "model_type": "biophysical"
+    }, 
+    "point_nodes": {
+      "model_type": "point_process"
+    }
+  }, 
+  "components": {
+    "morphologies_dir": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\Chapter 5 - Three Simple Models of Neurons in Rodent Brains\\Erisir Model\\components\\morphologies", 
+    "point_neuron_models_dir": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\Chapter 5 - Three Simple Models of Neurons in Rodent Brains\\Erisir Model\\components\\point_neuron_models", 
+    "templates_dir": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\Chapter 5 - Three Simple Models of Neurons in Rodent Brains\\Erisir Model\\components\\templates", 
+    "biophysical_neuron_models_dir": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\Chapter 5 - Three Simple Models of Neurons in Rodent Brains\\Erisir Model\\components\\biophysical_neuron_models", 
+    "mechanisms_dir": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\Chapter 5 - Three Simple Models of Neurons in Rodent Brains\\Erisir Model\\components\\mechanisms", 
+    "synaptic_models_dir": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\Chapter 5 - Three Simple Models of Neurons in Rodent Brains\\Erisir Model\\components\\synaptic_models"
+  }, 
+  "target_simulator": "NEURON", 
+  "output": {
+    "spikes_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\Chapter 5 - Three Simple Models of Neurons in Rodent Brains\\Erisir Model\\output\\spikes.h5", 
+    "log_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\Chapter 5 - Three Simple Models of Neurons in Rodent Brains\\Erisir Model\\output\\log.txt", 
+    "output_dir": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\Chapter 5 - Three Simple Models of Neurons in Rodent Brains\\Erisir Model\\output"
+  }, 
+  "conditions": {
+    "celsius": 34.0, 
+    "v_init": -67.7
+  }, 
+  "networks": {
+    "nodes": [
+      {
+        "node_types_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\Chapter 5 - Three Simple Models of Neurons in Rodent Brains\\Erisir Model\\network\\network_node_types.csv", 
+        "nodes_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\Chapter 5 - Three Simple Models of Neurons in Rodent Brains\\Erisir Model\\network\\network_nodes.h5"
+      }
+    ], 
+    "edges": [], 
+    "gap_juncs": []
+  }
+}

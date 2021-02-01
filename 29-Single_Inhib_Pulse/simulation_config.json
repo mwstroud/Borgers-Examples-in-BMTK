@@ -28,12 +28,6 @@
       "node_set": "all", 
       "module": "FileIClamp", 
       "input_file": "$BASE_DIR\\input\\amps.h5"
-    }, 
-    "inhib_spikes": {
-      "input_type": "spikes", 
-      "node_set": "inhib", 
-      "module": "sonata", 
-      "input_file": "$BASE_DIR\\input\\Inhib.h5"
     }
   }, 
   "output": {

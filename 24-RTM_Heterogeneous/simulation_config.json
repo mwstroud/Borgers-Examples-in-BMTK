@@ -22,6 +22,12 @@
       "node_set": "extnet", 
       "module": "sonata", 
       "input_file": "$BASE_DIR\\input\\Asynchronous.h5"
+    }, 
+    "drive_spikes": {
+      "input_type": "spikes", 
+      "node_set": "drive", 
+      "module": "sonata", 
+      "input_file": "$BASE_DIR\\input\\Drive.h5"
     }
   }, 
   "output": {

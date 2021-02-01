@@ -5,6 +5,12 @@
       "node_set": "extnet", 
       "module": "sonata", 
       "input_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\24-RTM_Heterogeneous\\input\\Asynchronous.h5"
+    }, 
+    "drive_spikes": {
+      "input_type": "spikes", 
+      "node_set": "drive", 
+      "module": "sonata", 
+      "input_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\24-RTM_Heterogeneous\\input\\Drive.h5"
     }
   }, 
   "node_sets_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\24-RTM_Heterogeneous\\node_sets.json", 
@@ -60,11 +66,19 @@
         "nodes_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\24-RTM_Heterogeneous\\network\\extnet_nodes.h5"
       }, 
       {
+        "node_types_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\24-RTM_Heterogeneous\\network\\drive_node_types.csv", 
+        "nodes_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\24-RTM_Heterogeneous\\network\\drive_nodes.h5"
+      }, 
+      {
         "node_types_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\24-RTM_Heterogeneous\\network\\network_node_types.csv", 
         "nodes_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\24-RTM_Heterogeneous\\network\\network_nodes.h5"
       }
     ], 
     "edges": [
+      {
+        "edges_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\24-RTM_Heterogeneous\\network\\drive_network_edges.h5", 
+        "edge_types_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\24-RTM_Heterogeneous\\network\\drive_network_edge_types.csv"
+      }, 
       {
         "edges_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\24-RTM_Heterogeneous\\network\\network_network_edges.h5", 
         "edge_types_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\24-RTM_Heterogeneous\\network\\network_network_edge_types.csv"

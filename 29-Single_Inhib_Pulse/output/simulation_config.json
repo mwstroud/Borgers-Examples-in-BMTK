@@ -11,12 +11,6 @@
       "node_set": "all", 
       "module": "FileIClamp", 
       "input_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\29-Single_Inhib_Pulse\\input\\amps.h5"
-    }, 
-    "inhib_spikes": {
-      "input_type": "spikes", 
-      "node_set": "inhib", 
-      "module": "sonata", 
-      "input_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\29-Single_Inhib_Pulse\\input\\Inhib.h5"
     }
   }, 
   "node_sets_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\29-Single_Inhib_Pulse\\node_sets.json", 
