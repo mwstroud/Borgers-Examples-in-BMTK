@@ -5,7 +5,7 @@ NEURON {
 }
 
 PARAMETER {
-  g = 1 (nanosiemens)
+  g = 100 (nanosiemens)
 }
 
 ASSIGNED {

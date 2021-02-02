@@ -17,21 +17,17 @@
       {
         "node_types_file": "$NETWORK_DIR\\network_node_types.csv", 
         "nodes_file": "$NETWORK_DIR\\network_nodes.h5"
-      }, 
-      {
-        "node_types_file": "$NETWORK_DIR\\INGnet_node_types.csv", 
-        "nodes_file": "$NETWORK_DIR\\INGnet_nodes.h5"
       }
     ], 
     "edges": [
       {
-        "edges_file": "$NETWORK_DIR\\INGnet_INGnet_edges.h5", 
-        "edge_types_file": "$NETWORK_DIR\\INGnet_INGnet_edge_types.csv"
+        "edges_file": "$NETWORK_DIR\\network_network_edges.h5", 
+        "edge_types_file": "$NETWORK_DIR\\network_network_edge_types.csv"
       }
     ], 
     "gap_juncs": [
       {
-        "gap_juncs_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\31-ING_Entrainment\\network\\INGnet_gap_juncs.h5"
+        "gap_juncs_file": "C:\\Users\\strou\\Documents\\Git\\Borgers-Examples-in-BMTK\\31-ING_Entrainment\\network\\network_gap_juncs.h5"
       }
     ]
   }

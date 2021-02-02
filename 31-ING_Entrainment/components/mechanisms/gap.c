@@ -167,7 +167,7 @@ static void nrn_alloc(Prop* _prop) {
  }else{
  	_p = nrn_prop_data_alloc(_mechtype, 5, _prop);
  	/*initialize range parameters*/
- 	g = 1;
+ 	g = 100;
   }
  	_prop->param = _p;
  	_prop->param_size = 5;
@@ -369,7 +369,7 @@ static const char* nmodl_file_text =
   "}\n"
   "\n"
   "PARAMETER {\n"
-  "  g = 1 (nanosiemens)\n"
+  "  g = 100 (nanosiemens)\n"
   "}\n"
   "\n"
   "ASSIGNED {\n"

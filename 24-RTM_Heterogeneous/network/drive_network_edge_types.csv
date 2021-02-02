@@ -1,2 +1,0 @@
-edge_type_id target_query source_query delay target_sections dynamics_params distance_range model_template
-100 * pop_name=='Inp_drv' 0 ['soma'] Drive.json "[0.0, 1.0]" expsyn
