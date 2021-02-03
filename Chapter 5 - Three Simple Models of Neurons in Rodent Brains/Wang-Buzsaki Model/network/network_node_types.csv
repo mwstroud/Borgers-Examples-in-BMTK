@@ -1,2 +1,2 @@
-node_type_id model_type morphology model_template pop_name
-100 biophysical blank.swc hoc:WBInhCell Exc
+node_type_id pop_name model_template model_type morphology
+100 Exc hoc:WBInhCell biophysical blank.swc
