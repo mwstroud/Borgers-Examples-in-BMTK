@@ -1,8 +1,0 @@
-2021-02-02 22:45:57,749 [INFO] Created log file
-2021-02-02 22:45:57,806 [INFO] Building cells.
-2021-02-02 22:45:57,809 [INFO] Building recurrent connections
-2021-02-02 22:45:57,821 [INFO] Running simulation for 100.000 ms with the time step 0.100 ms
-2021-02-02 22:45:57,823 [INFO] Starting timestep: 0 at t_sim: 0.000 ms
-2021-02-02 22:45:57,826 [INFO] Block save every 1000 steps
-2021-02-02 22:45:57,856 [INFO]     step:1000 t_sim:100.00 ms
-2021-02-02 22:45:57,868 [INFO] Simulation completed in 0.047 seconds 

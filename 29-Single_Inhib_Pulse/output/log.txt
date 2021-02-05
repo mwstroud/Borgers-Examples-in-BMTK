@@ -1,9 +1,0 @@
-2021-01-28 00:21:35,497 [INFO] Created log file
-2021-01-28 00:21:35,635 [INFO] Building cells.
-2021-01-28 00:21:35,673 [INFO] Building recurrent connections
-2021-01-28 00:21:35,697 [INFO] Building virtual cell stimulations for extnet_spikes
-2021-01-28 00:21:35,760 [INFO] Running simulation for 30.000 ms with the time step 0.010 ms
-2021-01-28 00:21:35,789 [INFO] Starting timestep: 0 at t_sim: 0.000 ms
-2021-01-28 00:21:35,819 [INFO] Block save every 3000 steps
-2021-01-28 00:21:36,405 [INFO]     step:3000 t_sim:30.00 ms
-2021-01-28 00:21:36,453 [INFO] Simulation completed in 0.692 seconds 
