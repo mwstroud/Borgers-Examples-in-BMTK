@@ -5,9 +5,24 @@ Thanks to Tyler Banks, Ben Latimer, Pete Canfield, and Satish Nair for assisting
 
 These examples were inspired by examples in Christophe Borgers' book, "Introduction to Modeling Neuronal Dynamics".
 Each example in this repository is written in Python and may use the packages NEURON and or BMTK. 
-Some features of the original examples are ignored while implementing similar networks in these models..
+Some features of the original examples are ignored while implementing similar networks in these models.
 
 The goal of these computational models is to display general network features and their affects apart from raw numerical solutions when possible. 
+
+### Requirements
+ 1) Python 3.6 
+ 
+ 2) Latest BMTK
+ 
+ 3) Latest NEURON
+ 
+ 4) Latest jupyter notebook
+ 
+ Compile all .mod files in each example by using mknrndll Windows app or nrnivmodl command in terminal.
+
+Recommended: Download latest Anaconda app to download each of the above in an Anaconda Environment. You can then open jupyter notebooks from the Anaconda terminal.
+
+
 
 ## Completed Borger’s MATLAB -> Python Key Examples in chapters 23 – 33
 Chapters 30 and 32 are skipped
