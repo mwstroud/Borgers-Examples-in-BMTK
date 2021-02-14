@@ -10,7 +10,7 @@ Some features of the original examples are ignored while implementing similar ne
 The goal of these computational models is to display general network features and their affects apart from raw numerical solutions when possible. 
 
 ### Requirements
- 1) Python 3.6 
+ 1) Python 3.6 or 2.7
  
  2) Latest BMTK
  
