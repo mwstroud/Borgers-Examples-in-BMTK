@@ -1,6 +1,15 @@
-# Borgers-Examples-in-BMTK
+# Computational Neuronal Models of Entrainment, Synchronization, and Oscillations
 
-Completed Borger’s MATLAB scripts to Python Key Examples in chapters 23 – 34
+Matthew Stroud
+Thanks to Tyler Banks, Ben Latimer, Pete Canfield, and Satish Nair for assisting in the creation of these models.
+
+These examples were inspired by examples in Christophe Borgers' book, "Introduction to Modeling Neuronal Dynamics".
+Each example in this repository is written in Python and may use the packages NEURON and or BMTK. 
+Some features of the original examples are ignored while implementing similar networks in these models..
+
+The goal of these computational models is to display general network features and their affects apart from raw numerical solutions when possible. 
+
+## Completed Borger’s MATLAB scripts to Python Key Examples in chapters 23 – 34
 
 ### Chapter 23: Entrainment by Excitatory Input Pulses
 
@@ -46,6 +55,8 @@ Omit: Sections 31.1, 31.2, 31.3, 31.4, 31.5
 
 Section 33.1 – Figure 33.2: PINB_2 (page 295)
 Omit: Section 33.2 and 33.3
+
+## Chapter 5 Python implementations
 
 ### Chapter 5: Simple Models
 Erisir Model, RTM Model, and WB Model completed using BMTK.
