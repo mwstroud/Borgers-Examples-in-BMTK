@@ -9,7 +9,8 @@ Some features of the original examples are ignored while implementing similar ne
 
 The goal of these computational models is to display general network features and their affects apart from raw numerical solutions when possible. 
 
-## Completed Borger’s MATLAB scripts to Python Key Examples in chapters 23 – 34
+## Completed Borger’s MATLAB -> Python Key Examples in chapters 23 – 33
+Chapters 30 and 32 are skipped
 
 ### Chapter 23: Entrainment by Excitatory Input Pulses
 
