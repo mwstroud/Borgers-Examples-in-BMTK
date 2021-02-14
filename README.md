@@ -1,6 +1,6 @@
 # Computational Neuronal Models of Entrainment, Synchronization, and Oscillations
 
-Matthew Stroud
+Examples by Matthew Stroud ---
 Thanks to Tyler Banks, Ben Latimer, Pete Canfield, and Satish Nair for assisting in the creation of these models.
 
 These examples were inspired by examples in Christophe Borgers' book, "Introduction to Modeling Neuronal Dynamics".
