@@ -1,2 +1,2 @@
-node_type_id model_template pop_name morphology model_type
-100 hoc:ErisirCell Exc blank.swc biophysical
+node_type_id pop_name model_template model_type morphology
+100 Exc hoc:ErisirCell biophysical blank.swc

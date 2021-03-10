@@ -1,2 +1,2 @@
-edge_type_id target_query source_query dynamics_params distance_range delay target_sections weight_function model_template
-100 * pop_name=='Inp' Voltage_Set.json "[0.0, 1e-11]" 0 ['soma'] NULL Exp2Syn
+edge_type_id target_query source_query model_template dynamics_params distance_range delay target_sections weight_function
+100 * pop_name=='Inp' Exp2Syn Voltage_Set.json "[0.0, 1e-11]" 0 ['soma'] NULL

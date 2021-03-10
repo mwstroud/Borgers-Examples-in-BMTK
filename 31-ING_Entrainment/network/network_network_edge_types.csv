@@ -1,4 +1,4 @@
-edge_type_id target_query source_query syn_weight dynamics_params distance_range delay target_sections is_gap_junction weight_function model_template
-100 pop_name=='ING' pop_name=='ING' 0.005 PING_InhToInh.json "[0.0, 0.1]" 0 ['soma'] NULL NULL Exp2Syn
-101 pop_name=='Exc' pop_name=='ING' 0.005 PING_InhToExc.json "[0.0, 0.1]" 0 ['soma'] NULL NULL Exp2Syn
-102 pop_name=='ING' pop_name=='ING' 0.1 NULL "[0.0, 0.1]" 0 ['soma'] True NULL Gap
+edge_type_id target_query source_query is_gap_junction weight_function dynamics_params syn_weight model_template delay target_sections distance_range
+100 pop_name=='ING' pop_name=='ING' NULL NULL PING_InhToInh.json 0.005 Exp2Syn 0 ['soma'] "[0.0, 0.1]"
+101 pop_name=='Exc' pop_name=='ING' NULL NULL PING_InhToExc.json 0.005 Exp2Syn 0 ['soma'] "[0.0, 0.1]"
+102 pop_name=='ING' pop_name=='ING' True NULL NULL 0.1 Gap 0 ['soma'] "[0.0, 0.1]"
