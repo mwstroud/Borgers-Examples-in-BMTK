@@ -1,2 +1,0 @@
-edge_type_id target_query source_query model_template dynamics_params delay target_sections
-100 pop_name=='Exc' pop_name=='Exc' exp2syn PING_ExcToExc.json 0 ['soma']

@@ -1,3 +1,0 @@
-node_type_id model_template pop_name morphology model_type
-100 hoc:RTMExcCell Exc blank.swc biophysical
-101 hoc:WBInhCell ING blank.swc biophysical
