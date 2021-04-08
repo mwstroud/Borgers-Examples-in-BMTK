@@ -141,3 +141,8 @@ output/
 # h5py (some of these files get large and change often)
 *.h5
 *.tmp
+
+#Configuration files
+config.json
+simulation_config.json
+circuit_config.json
