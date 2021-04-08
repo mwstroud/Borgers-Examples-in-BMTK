@@ -146,6 +146,10 @@ output/
 config.json
 simulation_config.json
 circuit_config.json
+node_sets.json
+run_bionet.py
 
 #Network folder
 network/
+output/
+input/
