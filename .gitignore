@@ -146,3 +146,6 @@ output/
 config.json
 simulation_config.json
 circuit_config.json
+
+#Network folder
+network/
